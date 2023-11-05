@@ -5,5 +5,5 @@ This is for assignment with Git from group 100KMAway.
 
 1. Phuoc Nguyen
 2. Trang Nguyen
-3. Sang Nguyen
+3. Sieng Nguyen
 4. Henry Aneke
