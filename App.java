@@ -10,6 +10,12 @@ public class App {
         car1.accelerate();
         car1.brake();
         car1.refuel(5);
+
+        //My testing car
+        Car trangCar = new Car("Audi","R8",30);
+        trangCar.accelerate();
+        trangCar.brake();
+        trangCar.refuel(1);
     }
 }
 
