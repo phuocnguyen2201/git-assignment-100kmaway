@@ -16,6 +16,27 @@ public class App {
         trangCar.accelerate();
         trangCar.brake();
         trangCar.refuel(1);
+
+        Car siengCar = new Car();
+        siengCar.setBrand("MERCIDES");
+        siengCar.setModel("G5");
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.brake();
+        siengCar.refuel(9);
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.accelerate();
+        siengCar.refuel(1);
     }
 }
 
@@ -31,6 +52,7 @@ class Car{
         printData();
     }
 
+    // init 
     public Car(String brand, String model, int amountOfFuel){
         this.brand = brand;
         this.model = model;
