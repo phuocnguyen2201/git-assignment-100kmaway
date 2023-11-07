@@ -67,10 +67,13 @@ class Car{
     }
 
     void accelerate(){
+        //Subtract to amount of fuel by 1, avoid the amount of fuel reach negative.
         amountOfFuel = amountOfFuel-- > 0 ? amountOfFuel : 0;
         if(amountOfFuel > 0) {
             System.out.println("Car is accelerating");
-            amountOfFuel--;
+
+            //This line of code is redundant.
+            //amountOfFuel--;
         }
         else {
             System.out.println("Out of fuel, can't accelerate");
