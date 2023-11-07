@@ -1,7 +1,7 @@
 # git-assignment-100kmaway
 This is for assignment with Git from group 100KMAway.
 
-# Our member:
+# Our members:
 
 1. Phuoc Nguyen
 2. Trang Nguyen

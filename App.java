@@ -68,8 +68,15 @@ class Car{
 
     void accelerate(){
         amountOfFuel = amountOfFuel-- > 0 ? amountOfFuel : 0;
-        if(amountOfFuel > 0)
+        if(amountOfFuel > 0) {
             System.out.println("Car is accelerating");
+            amountOfFuel--;
+        }
+        else {
+            System.out.println("Out of fuel, can't accelerate");
+        }
+
+
     }
     private void printData(){
         System.out.println("Brand: "+brand);
