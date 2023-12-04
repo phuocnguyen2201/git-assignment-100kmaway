@@ -16,7 +16,7 @@ public class App {
         trangCar.accelerate();
         trangCar.brake();
         trangCar.refuel(1);
-
+        // test
         Car siengCar = new Car();
         siengCar.setBrand("MERCIDES");
         siengCar.setModel("G5");
